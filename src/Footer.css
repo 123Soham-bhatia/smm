@@ -1,0 +1,243 @@
+/* .footer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.footer-instagram {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-instagram h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-instagram p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.instagram-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.instagram-images img {
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  color: #ddd;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #fff;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-info h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.footer-social a {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.footer-social a:hover {
+  color: #fff;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.footer-buy-now {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-buy-now a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-buy-now a:hover {
+  color: #111;
+} */
+
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Instagram Section */
+.footer-instagram {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-instagram h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-instagram p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.instagram-images {
+  display: flex;
+  gap: 10px;
+}
+
+.instagram-images img {
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Lower Footer */
+.footer-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  border-top: 1px solid #555;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  color: #ddd;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.footer-section li:hover {
+  color: #fff;
+}
+
+/* Divider Lines */
+.footer-divider {
+  width: 1px;
+  background-color: #555;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Social Media Logos */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1); /* Ensures logos appear white */
+}
+
+/* Footer Description */
+.footer-description p {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: justify;
+}
+
+/* Buy Now Button */
+.footer-buy-now {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-buy-now a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-buy-now a:hover {
+  color: #111;
+}

@@ -1,0 +1,15 @@
+.projects-carousel {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .projects-carousel h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .carousel img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
